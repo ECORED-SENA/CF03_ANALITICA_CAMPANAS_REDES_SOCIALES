@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Evaluación y presentación de resultados de campañas digitales'
