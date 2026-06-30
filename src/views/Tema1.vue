@@ -9,7 +9,7 @@
       p.mb-5 El siguiente video presenta los aspectos fundamentales relacionados con la evaluación final del desempeño de campañas digitales, permitiendo comprender cómo se analizan los resultados obtenidos y cómo estos apoyan la toma de decisiones estratégicas.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/TFwEdmcb2EQ?si=dDmEoKohUl0evEU7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Evaluación final del desempeño de campañas digitales
       p.mb-5 Para comprender mejor este proceso, a continuación se presenta los principales aspectos evaluados durante el análisis final de una campaña digital.
       .bg-slider.mb-5
