@@ -19,71 +19,70 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario estratégico del desempeño de campañas digitales',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
-      barajarPreguntas: false,
+        '<b>Objetivo</b>:Analizar el desempeño final de una campaña digital mediante la interpretación de indicadores clave de rendimiento (KPI), cálculo de métricas financieras, evaluación comparativa de resultados y formulación de recomendaciones estratégicas orientadas a la optimización de futuras campañas digitales.',
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de la evaluación final de una campaña digital?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Identificar tendencias de comportamiento.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Determinar el cumplimiento de los objetivos planteados.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Registrar todas las actividades ejecutadas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Actualizar la estrategia de contenidos.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué permite identificar la comparación entre objetivos y resultados?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La cantidad de campañas ejecutadas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Las características de la plataforma utilizada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'El nivel de cumplimiento alcanzado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Los recursos empleados en la campaña.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +91,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            'Una campaña superó su meta de alcance, pero no logró las conversiones esperadas. ¿Qué conclusión puede obtenerse?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'La estrategia favoreció la visibilidad más que la conversión.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La inversión realizada fue insuficiente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Los indicadores seleccionados no fueron adecuados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La audiencia no recibió los contenidos.',
               esCorrecta: false,
             },
           ],
@@ -123,29 +124,29 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál de los siguientes indicadores se relaciona directamente con la rentabilidad de una campaña?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Alcance.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Engagement.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Impresiones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'ROI.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -153,28 +154,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Por qué es importante utilizar criterios de evaluación previamente definidos?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Permiten interpretar resultados de forma consistente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Facilitan reemplazar los objetivos establecidos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Garantizan mejores resultados comerciales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Reducen la necesidad de analizar indicadores.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +186,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué característica distingue a un KPI de una métrica general?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Se utiliza únicamente en medios digitales.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Representa un indicador asociado a objetivos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Mide exclusivamente variables financieras.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Se aplica únicamente al cierre de campañas.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +217,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            'Si el objetivo principal de una campaña es aumentar el reconocimiento de marca, ¿qué KPI sería más pertinente?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Tasa de conversión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'ROI.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'CPA.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Alcance.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +248,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál es el beneficio principal de comparar campañas digitales desarrolladas en distintos periodos?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Eliminar la necesidad de seguimiento continuo.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Identificar diferencias de rendimiento.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Reducir la cantidad de indicadores.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar procesos de optimización.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +279,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué aporta el benchmarking dentro de la evaluación de campañas?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La automatización de reportes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La definición de nuevos KPI.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La comparación con referentes previos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La eliminación de métricas secundarias.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +310,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué situación refleja una oportunidad de mejora en una campaña digital?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Conversión superior a la meta establecida.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Alcance consistente con los objetivos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Bajo CTR frente a lo esperado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Incremento sostenido del ROI.',
               esCorrecta: false,
             },
           ],
@@ -339,29 +341,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué información proporciona principalmente el ROI en una campaña digital?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El nivel de interacción alcanzado.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La frecuencia de visualización obtenida.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La cantidad de contenidos publicados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'La relación entre inversión y resultados.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -370,28 +372,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Si una campaña obtuvo ingresos por encima de la inversión realizada, ¿qué puede concluirse sobre el ROI?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Presenta un resultado favorable.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Refleja una disminución del alcance.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Representa una reducción de conversiones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Indica una baja rentabilidad.',
               esCorrecta: false,
             },
           ],
@@ -400,29 +402,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Cuál es la principal utilidad de un dashboard ejecutivo?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Automatizar tareas operativas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Presentar información para decisiones.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Diseñar contenidos publicitarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Almacenar archivos de campañas.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +433,28 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué característica debe tener un informe de resultados efectivo?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Contener la mayor cantidad de métricas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Presentar únicamente datos financieros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Mostrar información clara y relevante.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Excluir resultados con bajo desempeño.',
               esCorrecta: false,
             },
           ],
@@ -462,30 +463,183 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué permite identificar un insight accionable?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Una oportunidad de mejora.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un cambio de imagen institucional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una tarea pendiente del equipo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una variación sin relevancia estratégica.',
               esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Por qué es importante comunicar adecuadamente los resultados de una campaña?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Porque facilita la interpretación de los hallazgos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Porque incrementa automáticamente las conversiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Porque sustituye los procesos de análisis.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Porque elimina la necesidad de reportes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es una práctica ética en la gestión de datos digitales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Conservar información sin restricciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Solicitar consentimiento para el uso de datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Compartir información sin autorización.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Utilizar datos sin informar al usuario.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué objetivo tiene la privacidad de datos en entornos digitales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir el uso de herramientas analíticas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Facilitar la difusión pública de registros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar la cantidad de datos recopilados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Proteger la información personal de los usuarios.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué representa el consentimiento digital?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La transferencia automática de información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La publicación abierta de registros digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La autorización para utilizar información personal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La eliminación permanente de los datos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál es el beneficio principal del benchmarking en campañas digitales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reducir la necesidad de evaluación periódica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sustituir los indicadores de desempeño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Garantizar resultados idénticos entre campañas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Comparar resultados para identificar mejoras.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

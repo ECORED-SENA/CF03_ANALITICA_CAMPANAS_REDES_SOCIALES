@@ -226,14 +226,46 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alcance',
+      significado:
+        'Cantidad de personas o usuarios únicos que han visto o han sido expuestos a un determinado contenido o mensaje publicitario en un período de tiempo determinado.',
+    },
+    {
+      termino: 'Benchmarking',
+      significado:
+        'Estudio profundizado sobre los competidores para entender las estrategias y mejores prácticas utilizadas por ellos. Este análisis permite que una empresa reproduzca o adapte algunas de esas acciones para atraer al público y fortalecer su relación con él.',
+    },
+    {
+      termino: 'Consentimiento digital',
+      significado:
+        'Autorización que una persona otorga, generalmente mediante un clic, para que una aplicación, servicio o página web utilice sus datos personales. Puede incluir información como ubicación, hábitos de navegación, fotografías, contactos o mensajes.',
+    },
+    {
+      termino: 'Dashboard',
+      significado:
+        'Panel de información que presenta datos de forma gráfica para revelar insights y tendencias. Se considera una herramienta estratégica que facilita el análisis, la toma de decisiones y la optimización de procesos dentro de las organizaciones.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Enthec. (2025, junio 27). Consentimiento digital: por qué aceptar condiciones no garantiza la seguridad de tus datos. Enthec.',
+      link: 'https://enthec.com/consentimiento-digital/',
+    },
+    {
+      referencia:
+        'GoDaddy. (2023, noviembre 30). Qué es un dashboard y para qué se usa. GoDaddy.',
+      link: 'https://www.godaddy.com/resources/latam/stories/dashboard-que-es-como-funciona',
+    },
+    {
+      referencia:
+        'MSMK. (2024, septiembre 11). ¿Qué es el alcance? MSMK University.',
+      link: 'https://msmk.university/que-es-el-alcance/',
+    },
+    {
+      referencia:
+        'Salesforce. (2021, agosto 20). Benchmarking: ¿qué es y cómo aplicarlo? Salesforce LATAM Blog.',
+      link: 'https://www.salesforce.com/mx/blog/que-es-benchmarking-y-como-aplicarlo/',
     },
   ],
   creditos: [
@@ -242,60 +274,107 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable ecosistema virtual de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de línea de producción Huila',
+          cargo: 'Responsable de Línea de Producción Huila',
           centro: 'Dirección General',
         },
       ],
     },
+
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paola Andrea Tello Zambrano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
+
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Juan José Calderon Gutiérrez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: 'Desarrollador <i>full stack</i>',
+          nombre: 'Cristian Fernando Martínez Sánchez',
+          cargo: 'Desarrollador fullstack',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
+
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
