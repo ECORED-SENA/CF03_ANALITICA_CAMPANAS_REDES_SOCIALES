@@ -266,7 +266,7 @@
                   td.ajuste-border-tabla.texto-left.text-weight-bold Baja retención
                   td.ajuste-border-tabla.texto-left Contenido poco atractivo
                   td.texto-left Ajustar el formato
-      p.mb-5 A partir de estas interpretaciones es posible identificar oportunidades de mejora que orienten el diseño de futuras campañas digitales.
+      p.mb-5 A partir de estas interpretaciones, es posible identificar oportunidades de mejora que orienten el diseño de futuras campañas digitales.
       .row.justify-content-center.mb-5
         .col-lg-4.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           .tarjeta--boton.p-5.h-100

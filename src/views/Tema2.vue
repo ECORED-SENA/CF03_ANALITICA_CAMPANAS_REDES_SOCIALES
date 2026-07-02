@@ -331,8 +331,8 @@
                 figure
                   img(src='@/assets/curso/temas/t2/img16.jpg', alt='').m-auto
               .col-xl.fit___box_container
-                p.mb-0 El #[i Benchmarking] corresponde al proceso de comparación del rendimiento de campañas digitales frente a referentes previos, metas establecidas o estándares de desempeño definidos por la organización. Este análisis permite interpretar niveles de competitividad, evaluar el cumplimiento de objetivos e identificar oportunidades de mejora orientadas al fortalecimiento de futuras estrategias digitales.
-          p.mb-0 La aplicación del #[i Benchmarking] facilita la identificación de patrones de rendimiento, la evaluación de tendencias históricas y la valoración de resultados obtenidos frente a expectativas previamente definidas. De esta manera, las organizaciones pueden determinar si las acciones implementadas presentan mejoras, retrocesos o comportamientos estables respecto a campañas anteriores:
+                p.mb-0 El #[i benchmarking] corresponde al proceso de comparación del rendimiento de campañas digitales frente a referentes previos, metas establecidas o estándares de desempeño definidos por la organización. Este análisis permite interpretar niveles de competitividad, evaluar el cumplimiento de objetivos e identificar oportunidades de mejora orientadas al fortalecimiento de futuras estrategias digitales.
+          p.mb-0 La aplicación del #[i benchmarking] facilita la identificación de patrones de rendimiento, la evaluación de tendencias históricas y la valoración de resultados obtenidos frente a expectativas previamente definidas. De esta manera, las organizaciones pueden determinar si las acciones implementadas presentan mejoras, retrocesos o comportamientos estables respecto a campañas anteriores:
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src="@/assets/curso/temas/t2/img17.png", alt="").m-auto 
@@ -362,7 +362,7 @@
                         td.ajuste-border-tabla.texto-left 5,2 %
                         td.texto-left 27 %
             .row(titulo="Comparación histórica").ajuste-cajaAcordion.ajuste-vineta
-              p Además de la comparación histórica, el #[i Benchmarking] permite contrastar los resultados obtenidos con los objetivos establecidos durante la etapa de planificación. Esta comparación facilita determinar el nivel de cumplimiento alcanzado y detectar desviaciones que requieran ajustes estratégicos.
+              p Además de la comparación histórica, el #[i benchmarking] permite contrastar los resultados obtenidos con los objetivos establecidos durante la etapa de planificación. Esta comparación facilita determinar el nivel de cumplimiento alcanzado y detectar desviaciones que requieran ajustes estratégicos.
               .ajuste-tabla-acordion
                 .titulo-sexto.color-acento-botones.mb-2(data-aos="fade-right")
                   h5 Tabla 8.
@@ -409,7 +409,7 @@
                         td.ajuste-border-tabla.texto-left.text-weight-bold ROI superior
                         td.ajuste-border-tabla.texto-left Mejor rentabilidad
                         td.texto-left Incrementar inversión
-      p.mb-0 La aplicación del #[i Benchmarking] y del análisis comparativo fortalece los procesos de evaluación estratégica, facilita la identificación de oportunidades de mejora y contribuye al desarrollo de campañas digitales más efectivas y orientadas a resultados.
+      p.mb-0 La aplicación del #[i benchmarking] y del análisis comparativo fortalece los procesos de evaluación estratégica, facilita la identificación de oportunidades de mejora y contribuye al desarrollo de campañas digitales más efectivas y orientadas a resultados.
 
 </template>
 

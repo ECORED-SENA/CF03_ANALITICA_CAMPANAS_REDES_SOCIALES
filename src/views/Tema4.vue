@@ -261,7 +261,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/t4/img26.png', alt='Dashboard de resumen de campaña con métricas de alcance, conversiones, tasa de conversión, inversión y ROI, acompañado de gráficos de evolución y comparación de estrategias publicitarias.').m-auto
           p La figura reúne los principales resultados de una campaña digital mediante indicadores de desempeño y gráficos comparativos. Presenta la evolución de conversiones y alcance semanal, así como una comparación del ROI entre diferentes estrategias publicitarias para facilitar la evaluación de resultados y la toma de decisiones.
-          p.mb-5 A continuación, se presentan los principales beneficios asociados al uso de Dashboards en el análisis de información: 
+          p.mb-5 A continuación, se presentan los principales beneficios asociados al uso de dashboards en el análisis de información: 
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
@@ -298,7 +298,7 @@
                 i.fas.fa-check-circle
               | 
               p.mb-0 #[b Resúmenes ejecutivos:] comunicación rápida y clara de resultados.
-      p.mb-5 La efectividad de un #[i Dashboard] depende en gran medida de la adecuada selección de elementos visuales. Cada recurso gráfico cumple una función específica dentro del proceso de interpretación de datos.
+      p.mb-5 La efectividad de un #[i dashboard] depende en gran medida de la adecuada selección de elementos visuales. Cada recurso gráfico cumple una función específica dentro del proceso de interpretación de datos.
       .bg-slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -522,7 +522,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img44.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          p Durante la construcción de reportes es importante evitar errores que puedan afectar la calidad de la información presentada y la correcta interpretación de los resultados.
+          p Durante la construcción de reportes es, importante evitar errores que puedan afectar la calidad de la información presentada y la correcta interpretación de los resultados.
           br
           ul.fa-ul.mb-0
             li.mb-0.ajuste---li.d-flex
